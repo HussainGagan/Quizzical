@@ -43,9 +43,10 @@ export default function App() {
 
   function checkAns() {
     if (isOver) {
+      setQuizData([]);
+      setPlayAgain((oldVal) => oldVal + 1);
       setScoreMsg("");
       setIsOver(false);
-      setPlayAgain((oldVal) => oldVal + 1);
     } else {
       if (!checkAllQuestionCompleted()) {
         setScoreMsg("Please Complete all the question");

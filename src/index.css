@@ -35,6 +35,9 @@ body {
 
 .quiz-text-body {
   padding-block: 19rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .quiz-container .quiz-text-body {
@@ -50,10 +53,11 @@ body {
 .quiz-desc {
   font-size: 1.8rem;
   color: #293264;
-  margin-bottom: 3rem;
+  margin-bottom: 3.2rem;
 }
 
 .btn-start-quiz {
+  align-self: center;
   font-family: inherit;
   font-size: 1.8rem;
   font-weight: 500;
@@ -180,11 +184,14 @@ body {
 }
 
 @media (max-width: 40.62em) {
-  html {
-    font-size: 56.25%;
+  .quiz-text-body {
+    padding-bottom: 15rem;
   }
   .quiz-container {
     background-position: 0% 108%, 115% 0;
+  }
+  .btn-start-quiz {
+    align-self: stretch;
   }
   .quiz-items {
     width: 90%;
