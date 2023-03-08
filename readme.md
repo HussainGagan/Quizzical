@@ -16,4 +16,4 @@ This is a simple quiz application that allows users to test their knowledge on v
 
 ## live link
 
-[here is the live site](https://hussain-quizzical.netlify.app/)
+[here is the live site](https://quizzical-hussain.netlify.app/)
